@@ -1,0 +1,109 @@
+/*Tab css*/
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0%;
+}
+
+@media screen and (min-width: 1200px) {
+    ul.tab {
+        padding-left: 22%;
+    }
+
+    ul.tab > li {
+        float: left;
+    }
+}
+
+ul.tab >li >a {
+    display: block;
+    padding: 22px;
+    color: gray;
+    text-decoration: none !important;
+    border-bottom: 1px solid #DBE6F0;
+}
+
+/*contact form*/
+.input-group, .fromCard, #termsCheckBox{
+    box-shadow: 0 .5rem 1rem rgba(180,66,70,0.5);
+    border-radius: 5px;
+}
+
+.input-group > input:focus, .input-group > textarea:focus {
+    box-shadow: none;
+}
+
+.input-group:hover {
+    transition: transform .3s; /* Animation */
+    transform: scale(1.03);
+}
+
+.formBtn{
+    position: relative;
+    display: inline-block;
+    padding: 5px 25px;
+    margin: 0;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+    background: #F2495F;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.formBtn:hover, #termsCheckBox:hover {
+    transition: transform .3s; /* Animation */
+    transform: scale(1.08);
+}
+
+.input-group-text > i, .formTitle, .input-group > i{
+    color: #F2495F;
+}
+
+.termsConditionBody{
+    display:block;
+    width:100%;
+    max-height:300px;
+    overflow-y:scroll;
+}
+
+#termsCheckBox{
+    margin-right: 2%;
+    width: 15px;
+    height: 15px;
+}
+
+/*ThankYou, Error Message*/
+.thank-you-pop{
+    width:100%;
+    padding: 0px 20px 20px 20px;
+    text-align:center;
+}
+.thank-you-pop img{
+    width:76px;
+    height:auto;
+    margin:0 auto;
+    display:block;
+    margin-bottom:25px;
+}
+
+.thank-you-pop h1{
+    font-size: 42px;
+    margin-bottom: 25px;
+    color:#5C5C5C;
+}
+.thank-you-pop p{
+    font-size: 20px;
+    margin-bottom: 27px;
+    color:#5C5C5C;
+}
+
+#thankYouModal .modal-header, #errorModal .modal-header{
+    border:0px;
+}
+
+/*Feature Card*/
+.featureCard{
+    margin: 2% 4%;
+}
